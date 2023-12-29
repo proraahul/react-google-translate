@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  background-color: rgba(162, 160, 156, 0.949);
+}
+div{
+  padding: 10px;
+}
+select{
+  padding: 5px;
+  /* font-size: 1vmax; */
+  border: none;
+}
+.App > div > textarea{
+  padding: 0.8vmax;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+button{
+  padding: 10px 15px;
+  font-size: 1vmax;
+  background-color:aliceblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
